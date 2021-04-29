@@ -1,7 +1,7 @@
 :root {
   --primary-color: #212529;
   --secondary-color: #494949;
-  --accent-color: #f95353;
+  --accent-color: #bebcbc;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -91,7 +91,7 @@ a:visited {
 }
 
 .social-link:hover {
-  color: var(--secondary-color);
+  color: var(--accent-color);
 }
 
 .homepage-link {
