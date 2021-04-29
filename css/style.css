@@ -39,6 +39,14 @@ p {
   line-height: 1.5;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
 .navigation-links {
   display: flex;
   justify-content: center;
@@ -76,6 +84,14 @@ p {
 .secondary-link:hover {
   background: var(--secondary-color);
   color: white;
+}
+
+.social-link {
+  color: white;
+}
+
+.social-link:hover {
+  color: var(--secondary-color);
 }
 
 .homepage-link {
@@ -116,6 +132,10 @@ p {
 
 .img-technologies {
   width: 80px;
+}
+
+.img-icon {
+  width: 50px;
 }
 
 @media (max-width: 576px) {
