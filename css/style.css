@@ -73,18 +73,6 @@ a:hover {
   text-align: center;
 }
 
-.email-link {
-  font-size: 20px;
-  text-decoration: none;
-  color: var(--accent-color2);
-}
-
-.email-link:hover {
-  text-decoration: underline;
-  color: var(--secondary-color);
-  text-decoration: none;
-}
-
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -102,6 +90,7 @@ a:hover {
 .img-row {
   display: flex;
   text-align: center;
+
 }
 
 .img-technologies {
@@ -162,7 +151,7 @@ a:hover {
 }
 
 .target-link {
-  font-size: 20px;
+  font-size: 16px;
   text-decoration: none;
   color: var(--accent-color2);
 }
