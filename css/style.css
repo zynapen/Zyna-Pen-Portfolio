@@ -73,24 +73,13 @@ a:hover {
   text-align: center;
 }
 
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.img-about {
-  width: 250px;
-}
-
 .img-icon {
   width: 50px;
 }
 
-.img-row {
+.img-center {
   display: flex;
   text-align: center;
-
 }
 
 .img-technologies {
