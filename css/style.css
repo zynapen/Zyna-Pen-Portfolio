@@ -88,14 +88,25 @@ a:hover {
   border-radius: 50px 20px;
 }
 
-footer {
-  text-align: left;
-  padding: 0px;
-  position: fixed;
-  bottom: 50px;
-  background-color: var(--accent-color);
-  color: black;
+.footer {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
 }
+
+.footer-link {
+  text-decoration: underline;
+  color: var(--accent-color2);
+  text-decoration: none;
+}
+
+
+.footer-link:hover {
+  text-decoration: underline;
+  color: white;
+  text-decoration: none;
+}
+
 .img-icon {
   width: 50px;
 }
