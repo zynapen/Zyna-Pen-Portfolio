@@ -91,7 +91,7 @@ a:hover {
 footer {
   text-align: left;
   padding: 10px;
-  position: absolute;
+  position: fixed;
   bottom: 50px;
   background-color: var(--accent-color);
   color: black;
