@@ -129,16 +129,15 @@ footer {
 }
 
 .index-body {
-    height: 200px;
-    background-color: rgba(0, 0, 0, 0.85);
-    padding: 10px;
-    color: #f0f0f0;
-    text-shadow: #000 0px 1px 0px;
-    font-family: "Consolas", "Courier New", "Courier";
-    font-size: 1.45em;
-    line-height: 1.40em;
-    font-weight: 500;
-    text-align: left;
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 10px;
+  color: #f0f0f0;
+  text-shadow: #000 0px 1px 0px;
+  font-family: "Consolas", "Courier New", "Courier";
+  font-size: 1.45em;
+  line-height: 1.40em;
+  font-weight: 500;
+  text-align: left;
 }
 
 .navigation-links {
