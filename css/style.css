@@ -56,6 +56,25 @@ a:hover {
   color: var(--secondary-color);
 }
 
+#about {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 0px auto;
+}
+
+#about img {
+  position: absolute;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#about img.top:hover {
+  opacity:0;
+}
+
 .about-paragraphs {
   margin: 10px;
 }
@@ -254,6 +273,11 @@ a:hover {
   h2 {
     font-size: 20px;
     text-align: center;
+  }
+
+  #about img {
+    width: 100%;
+    padding: 10px;
   }
 
   p {
