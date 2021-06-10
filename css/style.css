@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #212529;
+  --primary-color: #262626;
   --secondary-color: #494949;
   --accent-color: #bebcbc;
   --accent-color2: #f95353;
@@ -179,6 +179,10 @@ a:hover {
   margin: 20px;
 }
 
+.navbar-custom {
+  background-color: #262626;
+}
+
 .navbar-justify-content{
   display: flex;
   justify-content: flex-end;
@@ -196,9 +200,9 @@ a:hover {
 }
 
 .primary-link:hover {
-  background: white;
+  background: var(--secondary-color);
   border-style: solid;
-  color: var(--primary-color);
+  color: White;
 }
 
 .project-body {
