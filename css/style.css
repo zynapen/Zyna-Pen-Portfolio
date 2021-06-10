@@ -100,6 +100,7 @@ a:hover {
 }
 
 .contact-link:hover {
+  transition: all 0.8s;
   background-color: var(--primary-color);
   text-decoration: underline;
   color: white;
@@ -200,6 +201,7 @@ a:hover {
 }
 
 .primary-link:hover {
+  transition: all 0.8s;
   background: var(--secondary-color);
   border-style: solid;
   color: White;
